@@ -332,7 +332,7 @@ body {
 
 
 .sidebar {
-
+    border: 1px #00bef200;
     position: sticky;
     grid-row: span 1;
     min-height: 100%;
