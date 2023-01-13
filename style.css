@@ -952,9 +952,7 @@ grid-gap: 1em;
         display: flex;
         border-radius: 60px;
         background-color: white;
-        outline-width: 1px;
         width: 100% ;
-
         box-shadow: 2px 2px 0px 0px #fcb1ea25;
         width: 100%;
 
@@ -1026,21 +1024,19 @@ grid-gap: 1em;
     .btn-dropdown > .btn-icon:focus,
 .btn-icon:hover{
     border-radius: 60px;
-    outline-style: solid;
-    outline-width: 1px;
-    outline-color: #9cfe2ce2;
+   border: solid 1px #9cfe2c;
     box-shadow: 2px 2px 0px 0px #b0f9c04c;
     cursor: pointer;
 }
 
 .btn-icon:focus{
-    outline-color: #9cfe2ce2;
+    border: solid 1px #9cfe2c;
     box-shadow: 2px 2px 0px 0px #fcb1ea5c;
     cursor: pointer;
 }
 
 .btn-icon:hover > .icon-bg {
-    background-color: #9cfe2ce2;
+    background-color: #9cfe2c00;
     cursor: pointer;
 }
 
