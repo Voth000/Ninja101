@@ -770,14 +770,14 @@ div#content.s4 {
 }
 
 #video1{
-    border-radius: 120px;
+    border-radius: 100px;
     width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
 #videocon {
-    border-radius: 120px;
+    border-radius: 100px;
     text-align: center;
         width: 100%;
         overflow: hidden;
@@ -785,7 +785,7 @@ div#content.s4 {
 }
 
 video {
-    border-radius: 120px;
+    border-radius: 100px;
     height: 100%;
     width: 100%;
     max-width: 100%;
