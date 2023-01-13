@@ -522,7 +522,7 @@ div#cs1.c1 {
 
 #btn:hover {
     border-radius: 60px;
-    border: solid 1px  ;
+    border: solid 1px;
     border-color: #2ade33dd;
     box-shadow: 2px 3px 0px 0px #ff19c91f;
     transition: ease-in-out 0.05s;
@@ -896,7 +896,7 @@ grid-gap: 1em;
     width: 100%;
     max-width: 260px;
     min-width: 20px;
-    background-color: rgb(246 89 199);
+    background-color: #9cfe2ce2;
     min-height: 24px;
     padding: 4px 18px; 
     grid-column: span 2;
