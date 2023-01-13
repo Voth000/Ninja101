@@ -41,6 +41,11 @@
     border: 0px !important;
 }
 
+#gif {
+    max-width: 100% !important;
+
+}
+
 #infostick {
     grid-gap: 1em;
     border-radius: 100px;
@@ -646,6 +651,7 @@ div#content.s2 {
 
 }
 #socialall {
+    gap: 1em;
     padding: 40px 12px 60px 40px;
     display: grid;
         grid-template-rows: 1fr auto;
