@@ -605,6 +605,7 @@ div#content.s2 {
 }
 
 #img2 {
+    height: auto !important;
     height: fit-content;
     justify-self: center;
     max-width: 40px;
