@@ -408,7 +408,7 @@ a{
 }
 
 div#section.s1 {
-    background-color: rgb(255 248 43 / 91%);
+    background-color: rgb(246 89 199);
     position: absolute;
     height: 20%;
     width: -webkit-fill-available;
@@ -508,7 +508,7 @@ div#cs1.c1 {
     width: 100%;
     max-width: 260px;
     min-width: 20px;
-    background-color: rgb(255 248 43 / 91%);
+    background-color: rgb(246 89 199);
     height: 100%;
     min-height: 24px;
     padding: 4px 18px; 
@@ -809,13 +809,13 @@ div#content.s5 {
     background-color: rgba(255, 255, 255, 0);
     position: relative;
     display: grid;
+    gap: 4em;
     grid-template-columns: auto 1fr;
+    padding: 2em;
 }
 
 
 #gif {
-
-    border-radius: 120px;
     max-width: 90%;
     justify-self: center;
 
@@ -888,7 +888,7 @@ grid-gap: 1em;
     width: 100%;
     max-width: 260px;
     min-width: 20px;
-    background-color: rgb(255 240 70);
+    background-color: rgb(246 89 199);
     min-height: 24px;
     padding: 4px 18px; 
     grid-column: span 2;
@@ -914,11 +914,7 @@ grid-gap: 1em;
 
 #animate {
     place-items: center;
-    background:
-    linear-gradient(to bottom right,#ff9ddb 0%,  #00BCF2 7.41%, #efffed 13.72%, #efffed 25.23%,#43f8db 34.56%, #43f8db 40.76%, #ff9ddb 30%) bottom right,
-    linear-gradient(to bottom left, #ff9ddb 0%,  #00BCF2 7.41%, #efffed 13.72%, #efffed 25.23%, #43f8db 34.56%, #43f8db 40.76%, #baf774 30%) bottom left,
-    linear-gradient(to top left,    #ff9ddb 0%,  #00BCF2 7.41%, #efffed 13.72%, #efffed 25.23%, #43f8db 34.56%, #43f8db 40.76%, #ff9ddb 30%) top left,
-    linear-gradient(to top right,   #ff9ddb 0%,  #00BCF2 7.41%, #efffed 13.72%, #efffed 25.23%, #43f8db 34.56%, #43f8db 40.76%, #baf774  30%) top right;
+    background: linear-gradient(to bottom right,#ff9ddb 0%, #ff9ddb 7.41%, #efffed 13.72%, #efffed 25.23%,#ff9ddb 34.56%, #ff9ddb 40.76%, #ff9ddb 30%) bottom right, linear-gradient(to bottom left, #ff9ddb 0%, #ff9ddb 7.41%, #efffed 13.72%, #efffed 25.23%, #ff9ddb 34.56%, #bbf774 40.76%, #baf774 30%) bottom left, linear-gradient(to top left, #ff9ddb 0%, #ff9ddb 7.41%, #efffed 13.72%, #efffed 25.23%, #a7fd4e 34.56%, #a7fd4e 40.76%, #ff9ddb 30%) top left, linear-gradient(to top right, #ff9ddb 0%, #bbf774 7.41%, #efffed 13.72%, #efffed 25.23%, #bbf774 34.56%, #a7fd4e 40.76%, #baf774 30%) top right;
    background-size:50% 50%;
  border-radius: 20px;
    background-repeat:no-repeat;
@@ -1024,33 +1020,33 @@ grid-gap: 1em;
 .btn-icon:hover{
     outline-style: solid;
     outline-width: 1px;
-    outline-color: #baf774;
+    outline-color: #9cfe2ce2;
     box-shadow: 2px 2px 0px 0px #b0f9c04c;
     cursor: pointer;
 }
 
 .btn-icon:focus{
-    outline-color: #baf774;
+    outline-color: #9cfe2ce2;
     box-shadow: 2px 2px 0px 0px #fcb1ea5c;
     cursor: pointer;
 }
 
 .btn-icon:hover > .icon-bg {
-    background-color: #baf774;
+    background-color: #9cfe2ce2;
     cursor: pointer;
 }
 
   /* logo*/
 
 #logoimg:hover {
-    background-color: #baf774;
+    background-color: #9cfe2ce2;
     cursor: pointer;
 }
 
  /* language*/
 
 #nn:hover { 
-background-color: #baf774;
+background-color: #9cfe2ce2;
 cursor: pointer;}
 
 #nn:active {
