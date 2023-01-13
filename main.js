@@ -61,3 +61,14 @@ function toggleFullScreen(video) {
     }
   }
 }
+
+/*scrool*/
+
+const button = document.getElementsByClassName('c5');
+const contact = document.getElementsByClassName('s5');
+button.addEventListener("click", ()=>{
+    window.scroll({
+        top: contact.offsetTop,
+        behavior: 'smooth'
+      });
+});
