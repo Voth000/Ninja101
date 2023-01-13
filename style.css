@@ -530,8 +530,8 @@ div#cs1.c1 {
 }
 
 #btn:active {
-    outline: solid 1px  ;
-    outline-color: #2ade33dd;
+    border: solid 1px  ;
+    border-color: #2ade33dd;
     box-shadow: 2px 3px 0px 0px #ff19c91f;
     transition: ease-in-out 0.05s;
 }
