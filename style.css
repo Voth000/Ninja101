@@ -207,11 +207,11 @@ div#content.s3 {
          margin-top: 150px !important;
     }
 
-    div#section.s4 {
+    div#section.c4 {
         margin-top: 240px !important;
     }
 
-    div#section.s5 {
+    div#section.c5 {
         margin-top: 300px !important;
     }
 
@@ -439,7 +439,7 @@ div#section.s3 {
     margin-top: 240px;
 }
 
-div#section.s4 {
+div#section.c4 {
     background-color: #ffffffee;
     position: absolute;
     height: 20%;
@@ -448,7 +448,7 @@ div#section.s4 {
     margin-top: 360px;
 }
 
-div#section.s5 {
+div#section.c5 {
     background-color:rgb(244 61 192 / 87%);
     position: absolute;
     height: 100%;
@@ -772,7 +772,7 @@ a#p2b.border {
 
 
 /* Content 4*/
-div#content.s4 {
+div#content.c4 {
     
     text-align: center;
     display: grid;
