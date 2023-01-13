@@ -1025,6 +1025,7 @@ grid-gap: 1em;
 
     .btn-dropdown > .btn-icon:focus,
 .btn-icon:hover{
+    border-radius: 60px;
     outline-style: solid;
     outline-width: 1px;
     outline-color: #9cfe2ce2;
