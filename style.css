@@ -521,6 +521,7 @@ div#cs1.c1 {
 }
 
 #btn:hover {
+    border-radius: 60px;
     outline: solid 1px  ;
     outline-color: #2ade33dd;
     box-shadow: 2px 3px 0px 0px #ff19c91f;
