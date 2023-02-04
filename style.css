@@ -70,7 +70,7 @@
 
     body {
         font-size: 80% !important;
-    line-height: 14px !important;
+    line-height: 18px !important;
     }
     
     h3 {
@@ -83,7 +83,7 @@
 
     #p1 {
         width: 40%;
-        font-size: 60% !important;
+        : 60% !important;
         line-height: 10px !important
     }
 
@@ -287,6 +287,18 @@ grid-gap: 0px !important;
     }
 
     h3 {
+        font-size: 70% !important;
+    }
+
+    .infostyle {
+        grid-gap: unset !important;
+        display: grid !important;
+    grid-template-rows: auto 60px !important;
+    justify-self: unset !important;
+    grid-template-columns: unset !important;
+    }
+
+    #section {
         font-size: 70% !important;
     }
 
