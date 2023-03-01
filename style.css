@@ -20,7 +20,7 @@
 
 @media (min-width: 1000px) {
     body {
-        grid-template-columns: 8% 1fr !important;
+        grid-template-columns: 10% 1fr !important;
     }
 /* sidebar nav*/
     div#section.s1 {
@@ -33,6 +33,7 @@
      /*content5*/
  
  div#content.s5 {
+    height: 100% !important;
     background-color: rgba(255, 255, 255, 0);
     position: relative;
     display: grid;
@@ -42,6 +43,8 @@
 }
 
 #gif {
+    overflow: visible !important;
+    height: 50%;
     max-width: 100% !important;
 
 }
@@ -219,9 +222,14 @@ div#content.s3 {
     }
 
     footer {
+        font-size: 14px !important;
+        line-height: 18px !important;
         max-width: 70% !important;
     }
-
+a#idfoot {
+    display: grid;
+    margin: 8px 8px 0px 0px !important;
+}
 
  /*content 1*/
 
@@ -286,6 +294,8 @@ grid-gap: 0px !important;
     }
 
     footer {
+        font-size: 12px !important;
+        line-height: 14px !important;
         max-width: 60% !important;
     }
 
@@ -353,13 +363,15 @@ body {
 
 
 .sidebar {
+    z-index: 1;
+    height: 100vh;
     border: 1px #00bef200;
     position: sticky;
     grid-row: span 1;
     min-height: 100%;
     display: grid; 
-    grid-template-rows: 60px auto 60px ;
-    grid-gap: 12px;
+    grid-template-rows: 60px auto 80px ;
+    grid-gap: 8px;
 }
 
 
@@ -407,10 +419,40 @@ nav {
 }
 
 footer {
-    display: grid;
+    bottom: 24px;
+    width: 100%;
+    height: 100%;
+
+align-items: center;
+z-index: 1;
+font-weight: 600;
+    font-style: bold;
+    font-size: 18px;
+    line-height: 28px;
     text-align: center;
     align-items: center;
     background-color: unset;
+
+}
+
+a#idfoot{
+    text-align: center;
+
+    
+    align-items: center;
+    transition: color .2s ease;
+    transition:  padding .3s ease;
+    margin: 0px;
+    color: #f31dc1;
+    text-decoration: none;
+    border-radius: 60px;
+}
+a#idfoot:hover {
+
+    align-items: center;
+    color: #E565A6;
+    background-color: #ffffff;
+    padding: 0px;
 
 }
 
@@ -831,6 +873,7 @@ video {
 /* Content 5*/
 
 div#content.s5 {
+    height: 100vh;
     background-color: rgba(255, 255, 255, 0);
     position: relative;
     display: grid;
@@ -841,8 +884,12 @@ div#content.s5 {
 
 
 #gif {
-    max-width: 90%;
+        transform: scale(0.9);
+        overflow: visible !important;
+        height: 100%;
+        max-width: 100% !important;
     justify-self: center;
+
 
 }
 
@@ -879,8 +926,8 @@ grid-gap: 1em;
     position: absolute;
     display: grid;
     grid-template-rows: auto auto;
-    bottom: 40px;
-    right: 40px;
+    bottom: 10%;
+    right: 5%;
     max-width: 300px;
 }
 
