@@ -20,11 +20,11 @@
 
 @media (min-width: 1000px) {
     body {
-        grid-template-columns: 10% 1fr !important;
+        grid-template-columns: 8% 1fr !important;
     }
 /* sidebar nav*/
     div#section.s1 {
-        padding: 40px 40px 0px 40px;
+        padding: 40px 12px 0px 12px;
     }
 }
 
@@ -47,7 +47,7 @@
 }
 
 #infostick {
-    grid-gap: 1em;
+    grid-gap: 3em;
     border-radius: 100px;
     position: unset !important;
     display: grid;
@@ -64,7 +64,8 @@
 
 
      #btn {
-        font-size: 80%;
+        font-size: 120%;
+        line-height: 120%;
      }
 
 
@@ -74,11 +75,12 @@
     }
     
     h3 {
+        min-width: 90%;
         justify-self: center;
     text-align: center;
-        padding: 8px !important;
+        padding: 24px !important;
         margin: 0px !important;
-        font-size: 96% !important;
+        font-size: 140% !important;
     }
 
     #p1 {
@@ -99,10 +101,11 @@
 
     h4 {
         margin: 2px !important;
-        font-size: 96% !important;
+        font-size: 120% !important;
     }
     
     p {
+        font-size: 120% !important;
         margin: 0px 4px 8px 4px !important;
     }
     
@@ -116,7 +119,7 @@
 
     #section {
         font-weight: 500;
-        font-size: 90% !important;
+        font-size: 80% !important;
         line-height: 14px !important;
     }
 
@@ -156,9 +159,9 @@ div#content.s3 {
  
  /*content4*/
  #p4 {
-     margin: 12px 24px 12px 24px !important;
-     font-size: 10px !important;
-     line-height: 14px !important;
+     margin: 32px 24px 24px 32px !important;
+     font-size: 14px !important;
+     line-height: 20px !important;
  }
 
  
@@ -261,11 +264,11 @@ grid-gap: 0px !important;
 }
 
 #p5{
-    font-size: 10px !important;
+    font-size: 14px !important;
 }
 
 #p6{
-    font-size: 10px !important;
+    font-size: 14px !important;
 }
 
 
@@ -287,7 +290,7 @@ grid-gap: 0px !important;
     }
 
     h3 {
-        font-size: 70% !important;
+        font-size: 140% !important;
     }
 
     .infostyle {
@@ -355,7 +358,7 @@ body {
     grid-row: span 1;
     min-height: 100%;
     display: grid; 
-    grid-template-rows: 60px 1fr 60px ;
+    grid-template-rows: 60px auto 60px ;
     grid-gap: 12px;
 }
 
@@ -422,7 +425,7 @@ a{
     font-size: 14px;
     line-height: 20px;
     border-radius: 120px;
-    padding: 40px 24px 24px 24px;
+    padding: 40px 14px 24px 14px;
 }
 
 div#section.s1 {
@@ -635,7 +638,7 @@ div#content.s2 {
 
 .btn2{
     border: #00bef200;
-    max-height: 40px;
+    max-height: 48px;
     height: 100%;
     max-width: 260px;
     min-width: 20px;
@@ -739,7 +742,7 @@ div#lxonl.method {
     margin: 1em 1em 0em 1em;
     display: flex;
     justify-content: center;
-    font-size: 12px !important;
+    font-size: 10px !important;
     line-height: 14px !important;
 }
 
@@ -785,7 +788,7 @@ a#p2b.border {
 
 
 /* Content 4*/
-div#content.c4 {
+div#content.s4 {
     
     text-align: center;
     display: grid;
@@ -800,6 +803,7 @@ div#content.c4 {
 }
 
 #videocon {
+    height: 100%;
     border-radius: 100px;
     text-align: center;
         width: 100%;
@@ -883,7 +887,7 @@ grid-gap: 1em;
 #p6 {
     justify-items: end;
     font-size: 16px;
-
+padding: 0.5em;
     row-gap: 4px;
     display: grid;
     border-radius: 100px;
@@ -892,7 +896,11 @@ grid-gap: 1em;
 
     background-color: #ffffff;
 }
+
+
  span#p6 {
+    align-items: center;
+    padding: 0px !important;
     border: solid 0px #f200942b;
  }
 
