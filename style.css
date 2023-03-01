@@ -926,7 +926,7 @@ grid-gap: 1em;
     position: absolute;
     display: grid;
     grid-template-rows: auto auto;
-    bottom: 10%;
+    bottom: 8%;
     right: 5%;
     max-width: 300px;
 }
