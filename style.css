@@ -952,7 +952,7 @@ padding: 0.5em;
  }
 
 #info {
-
+padding-bottom: 28px;
     border-radius: 120px;
 
     display: grid;
