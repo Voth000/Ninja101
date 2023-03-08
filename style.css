@@ -33,6 +33,7 @@
      /*content5*/
  
  div#content.s5 {
+    grid-gap: 1em;
     height: 100% !important;
     background-color: rgba(255, 255, 255, 0);
     position: relative;
@@ -43,6 +44,7 @@
 }
 
 #gif {
+    right: 0% !important;
     overflow: visible !important;
     height: 50%;
     max-width: 100% !important;
@@ -50,12 +52,21 @@
 }
 
 #infostick {
-    grid-gap: 3em;
+    z-index: 0 !important;
+    grid-gap: 1em !important;
     border-radius: 100px;
     position: unset !important;
     display: grid;
     grid-template-rows: auto auto;
     max-width: 100% !important;
+}
+
+main {
+    margin: 0.5em !important;
+}
+
+.sidebar {
+    margin: 0em 0em 0em 0.5em !important;
 }
 
 
@@ -79,11 +90,11 @@
     
     h3 {
         min-width: 90%;
-        justify-self: center;
-    text-align: center;
-        padding: 24px !important;
+    
+    text-align: left;
+        padding: 12px !important;
         margin: 0px !important;
-        font-size: 140% !important;
+        font-size: 120% !important;
     }
 
     #p1 {
@@ -222,13 +233,15 @@ div#content.s3 {
     }
 
     footer {
+        grid-gap: 4px;
         font-size: 14px !important;
         line-height: 18px !important;
         max-width: 70% !important;
     }
 a#idfoot {
     display: grid;
-    margin: 8px 8px 0px 0px !important;
+    padding: 8px 0px;
+ 
 }
 
  /*content 1*/
@@ -300,7 +313,7 @@ grid-gap: 0px !important;
     }
 
     h3 {
-        font-size: 140% !important;
+        font-size: 120% !important;
     }
 
     .infostyle {
@@ -346,25 +359,23 @@ body, html {
 body {
     font-size: 14px;
     line-height: 20px;
-    width: 100vw;
-    height: 100%;
-    min-height: 100%;
+    
+ 
     box-sizing: border-box;
-    overflow-y: hidden;
-    overflow-x: hidden;
+ 
     display: grid;
     grid-gap: 2px;
     grid-template-columns: 20% 1fr;
     grid-template-rows: 1fr;
     min-height: 100vh;
     overflow-y: scroll;
-    padding: 1em;
+   
 }
 
 
 .sidebar {
     z-index: 1;
-    height: 100vh;
+    margin: 0em 0em 0em 1em;
     border: 1px #00bef200;
     position: sticky;
     grid-row: span 1;
@@ -377,10 +388,10 @@ body {
 
 
 main {
+    margin: 1em;
     overflow-x: hidden;
     border-radius: 100px;
     overflow-y: scroll;
-    height: 100%;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     background-color: unset;
@@ -419,11 +430,11 @@ nav {
 }
 
 footer {
-    bottom: 24px;
+   grid-gap: 4px;
     width: 100%;
-    height: 100%;
+    height: 80%;
+display: grid;
 
-align-items: center;
 z-index: 1;
 font-weight: 600;
     font-style: bold;
@@ -438,7 +449,9 @@ font-weight: 600;
 a#idfoot{
     text-align: center;
 
-    
+display: flex;
+justify-content: center;
+  text-align: center;
     align-items: center;
     transition: color .2s ease;
     transition:  padding .3s ease;
@@ -452,7 +465,7 @@ a#idfoot:hover {
     align-items: center;
     color: #E565A6;
     background-color: #ffffff;
-    padding: 0px;
+    padding: 4px;
 
 }
 
@@ -579,11 +592,12 @@ div#cs1.c1 {
 }
 
 #btn:hover {
+    transition: all 3s ease-in-out;
     border-radius: 60px;
     border: solid 1px;
     border-color: #2ade33dd;
     box-shadow: 2px 3px 0px 0px #ff19c91f;
-    transition: ease-in-out 0.05s;
+ 
     cursor: pointer;
 }
 
@@ -877,29 +891,36 @@ div#content.s5 {
     background-color: rgba(255, 255, 255, 0);
     position: relative;
     display: grid;
-    gap: 4em;
+    gap: 1em;
     grid-template-columns: auto 1fr;
-    padding: 2em;
+
 }
 
 
 #gif {
+    right: 5%;
+    position: relative;
         transform: scale(0.9);
         overflow: visible !important;
         height: 100%;
         max-width: 100% !important;
     justify-self: center;
+    z-index: 0;
+    transition: all ease-in-out .3s;
+}
 
-
+#gif:hover {
+    
+    transform: scale(1.02);
+z-index: 2;
 }
 
 .infostyle {
     grid-gap: 1em ;
-    width: 100%;
+  
     display: grid;
     grid-template-columns: auto auto;
-    align-self: center;
-    justify-self: center;
+   
     border-radius: 100px;
 
 
@@ -919,31 +940,39 @@ div#content.s5 {
 }
 
 #infostick {
-
+    background-color: white;
+padding: 2em;
 grid-gap: 1em;
-
+z-index: 1;
     border-radius: 100px;
     position: absolute;
     display: grid;
     grid-template-rows: auto auto;
-    bottom: 8%;
+    bottom: 40px;
     right: 5%;
     max-width: 300px;
 }
 
+#infostick:hover {
+    z-index: 3;
+}
+
 #p6 {
-    justify-items: end;
-    font-size: 16px;
+   
+ 
 padding: 0.5em;
     row-gap: 4px;
     display: grid;
     border-radius: 100px;
     margin: 0px !important;
-    justify-content: center;
+   
 
-    background-color: #ffffff;
+  
 }
 
+.infostyle h3 {
+    font-size: 14px;
+}
 
  span#p6 {
     align-items: center;
@@ -952,7 +981,7 @@ padding: 0.5em;
  }
 
 #info {
-padding-bottom: 28px;
+
     border-radius: 120px;
 
     display: grid;
@@ -960,15 +989,17 @@ padding-bottom: 28px;
 }
 
 .btn5{
+    transition: all 1s ease-in-out;
+    font-weight: bold !important;
     margin: 0em 1em 0em 1em;
     width: 100%;
     max-width: 260px;
     min-width: 20px;
-    background-color: #9cfe2ce2;
+    background-color: #f31dc1;
     min-height: 24px;
     padding: 4px 18px; 
     grid-column: span 2;
-    color: rgb(0, 0, 0);
+    color:#f7f370;
     padding: 12px 2px 12px 2px;
     
 }
