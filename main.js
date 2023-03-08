@@ -1,6 +1,6 @@
 // You could easily add more colors to this array.
 var colors = [ '#9cfe2ce2', 'rgb(244 61 192 / 87%)', '#9cfe2ce2'];
-var boxes = document.querySelectorAll(".");
+var boxes = document.querySelectorAll("");
 
 for (i = 0; i < boxes.length; i++) {
   // Pick a random color from the array 'colors'.

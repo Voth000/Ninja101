@@ -184,9 +184,13 @@ div#content.s3 {
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 560px) {
 
     /* drop-down btn*/
+
+    body {
+        padding-bottom: 20px !important;
+    }
 
     .btn-name {
         padding: 0px 0px 0px 6px !important;
@@ -1143,6 +1147,7 @@ padding: 0.5em;
   /* logo*/
 
 #logoimg:hover {
+    border-radius: 60px;
     background-color: #9cfe2ce2;
     cursor: pointer;
 }
