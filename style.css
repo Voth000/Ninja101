@@ -189,7 +189,7 @@ div#content.s3 {
 
     /* drop-down btn*/
     main {
-        padding-bottom: 60px !important;
+        padding-bottom: 80px !important;
      }
 
     body {
@@ -213,7 +213,7 @@ div#content.s3 {
  /* sidebar nav*/
 
     .sidebar {
-        padding-bottom: 60px !important;
+        padding-bottom: 80px !important;
         z-index: 1 !important;
     }
 
