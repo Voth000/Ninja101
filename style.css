@@ -178,6 +178,7 @@ div#content.s3 {
      line-height: 20px !important;
  }
 
+
  
  
 
@@ -187,7 +188,10 @@ div#content.s3 {
 @media (max-width: 560px) {
 
     /* drop-down btn*/
-
+    main {
+        padding-bottom: 40px !important;
+     }
+     
     body {
         height: calc(100vh - 40px) !important;
     }
@@ -209,6 +213,7 @@ div#content.s3 {
  /* sidebar nav*/
 
     .sidebar {
+        padding-bottom: 40px !important;
         z-index: 1 !important;
     }
 
@@ -385,7 +390,7 @@ body {
     border: 1px #00bef200;
     position: sticky;
     grid-row: span 1;
-    min-height: 100%;
+   
     display: grid; 
     grid-template-rows: 60px auto 80px ;
     grid-gap: 8px;
