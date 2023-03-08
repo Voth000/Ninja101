@@ -188,8 +188,8 @@ div#content.s3 {
 
     /* drop-down btn*/
 
-    body {
-        padding-bottom: 20px !important;
+    body,html {
+        height: calc(100vh - 40px) !important;
     }
 
     .btn-name {
