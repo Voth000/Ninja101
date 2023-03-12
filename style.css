@@ -62,7 +62,7 @@
 }
 
 main {
-    margin: 0.5em !important;
+    margin: 0em !important;
 }
 
 .sidebar {
@@ -189,6 +189,7 @@ div#content.s3 {
 
     /* drop-down btn*/
     main {
+        margin: 0.5em !important;
         padding-bottom: 80px !important;
      }
 
@@ -399,7 +400,7 @@ body {
 
 
 main {
-    margin: 1em;
+    
     overflow-x: hidden;
     border-radius: 100px;
     overflow-y: scroll;
@@ -437,6 +438,7 @@ nav {
     overflow: hidden;
     text-align: center;
     z-index: -1;
+    max-width: 92%;
     border-radius: 0px 0px 120px 120px;
 }
 
@@ -447,7 +449,7 @@ footer {
 display: grid;
 
 z-index: 1;
-font-weight: 600;
+font-weight: 200;
     font-style: bold;
     font-size: 14px;
     line-height: 18px;
@@ -488,7 +490,7 @@ a{
 }
 
 #section {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     border-radius: 120px;
