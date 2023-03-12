@@ -243,8 +243,8 @@ div#content.s3 {
 
     footer {
         grid-gap: 4px;
-        font-size: 14px !important;
-        line-height: 18px !important;
+        font-size: 12px !important;
+        line-height: 16px !important;
         max-width: 70% !important;
     }
 a#idfoot {
@@ -449,8 +449,8 @@ display: grid;
 z-index: 1;
 font-weight: 600;
     font-style: bold;
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 14px;
+    line-height: 18px;
     text-align: center;
     align-items: center;
     background-color: unset;
@@ -459,24 +459,25 @@ font-weight: 600;
 
 a#idfoot{
     text-align: center;
-
+    filter: drop-shadow(2px 2px 2px #fedbf25c);
 display: flex;
 justify-content: center;
   text-align: center;
     align-items: center;
-    transition: color .2s ease;
-    transition:  padding .3s ease;
+    transition: all .2s ease;
+    padding: 6px;
     margin: 0px;
-    color: #f31dc1;
+    color: rgb(255, 0, 204);
+    background-color: rgb(255, 255, 255);
     text-decoration: none;
-    border-radius: 60px;
+    border-radius: 20px;
 }
 a#idfoot:hover {
 
     align-items: center;
-    color: #E565A6;
-    background-color: #ffffff;
-    padding: 4px;
+    background-color: rgb(255, 0, 204);
+   color: #ffffff;
+    padding: 8px;
 
 }
 
