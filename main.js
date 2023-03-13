@@ -35,3 +35,95 @@ function toggleFullScreen(video) {
 
 /*scrool*/
 
+gsap.from(".btn-dropdown", {
+  opacity: 1, 
+  y: -80,
+  duration: 1.5,
+  delay: 0,
+});
+
+gsap.from(".c1", {
+  opacity: 1, 
+  y: 80,
+  duration: 0.5,
+  delay: 0,
+});
+
+gsap.from(".c2", {
+  opacity: 1, 
+  y: 80,
+  duration: 0.5,
+  delay: 0.25,
+});
+
+gsap.from(".c3", {
+  opacity: 1, 
+  y: 80,
+  duration: 0.5,
+  delay: 0.5,
+});
+
+gsap.from(".c4", {
+  opacity: 1, 
+  y: 80,
+  duration: 0.5,
+  delay: 0.75,
+});
+
+gsap.from(".c5", {
+  opacity: 1, 
+  y: 80,
+  duration: 0.5,
+  delay: 1,
+});
+
+gsap.from(".trai", {
+  opacity: 1, 
+  x: -350,
+  duration: 1,
+  delay: 0,
+});
+
+gsap.from(".phai", {
+  opacity: 1, 
+  y: 200,
+  duration: 1,
+  delay: 0,
+});
+
+gsap.from(".s1", {
+  opacity: 1, 
+  x: 400,
+  duration: 1,
+  delay: 0,
+});
+
+gsap.from(".s2", {
+  opacity: 1, 
+  x: 400,
+  duration: 1,
+  delay: 0.25,
+});
+
+gsap.from(".s3", {
+  opacity: 1, 
+  x: 400,
+  duration: 1,
+  delay: 0.5,
+});
+
+gsap.from(".s4", {
+  opacity: 1, 
+  x: 400,
+  duration: 1,
+  delay: 0.75,
+});
+
+gsap.from(".s5", {
+  opacity: 1, 
+  x: 400,
+  duration: 1,
+  delay: 1,
+});
+
+

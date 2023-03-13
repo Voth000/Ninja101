@@ -23,7 +23,7 @@
         grid-template-columns: 10% 1fr !important;
     }
 /* sidebar nav*/
-    div#section.s1 {
+    div#section.c1 {
         padding: 40px 12px 0px 12px;
     }
 }
@@ -103,7 +103,7 @@ main {
         line-height: 10px !important
     }
 
-    .c2 {
+    .c0 {
         width: 100% !important;
         max-width: 100% !important;
     }
@@ -147,7 +147,7 @@ main {
         grid-template-rows: 1fr auto !important;
     }
 
-    div#cs1.c1 {
+    div#cs1.c8 {
         grid-column: span 3 !important;
         padding: 20px 20px 38px 20px !important;
     }
@@ -226,11 +226,11 @@ div#content.s3 {
         padding: 12px 12px 0px 12px !important;
     }
 
-    div#section.s2 {
+    div#section.c2 {
         margin-top: 90px !important;
     }
 
-    div#section.s3 {
+    div#section.c3 {
          margin-top: 150px !important;
     }
 
@@ -263,7 +263,7 @@ a#idfoot {
         grid-template-rows: unset !important;
     }
 
-    div#cs1.c1 {
+    div#cs1.c8 {
     grid-column: unset !important;
     grid-row: unset !important;
     padding: 60px 20px 38px 20px !important;
@@ -497,7 +497,7 @@ a{
     padding: 40px 14px 24px 14px;
 }
 
-div#section.s1 {
+div#section.c1 {
     background-color: #f7f370;
     position: absolute;
     height: 20%;
@@ -505,7 +505,7 @@ div#section.s1 {
     z-index: -5;
 }
 
-div#section.s2 {
+div#section.c2 {
     background-color: #f7fdffe5;
     position: absolute;
     height: 20%;
@@ -514,7 +514,7 @@ div#section.s2 {
     margin-top: 120px;
 }
 
-div#section.s3 {
+div#section.c3 {
     background-color: #9cfe2ce2;
     position: absolute;
     height: 20%;
@@ -574,7 +574,7 @@ div#content.s1 {
 
 /* Content chu btn*/
 
-div#cs1.c1 {
+div#cs1.c8 {
     
     grid-row: span 2;
     display: grid;
@@ -625,7 +625,7 @@ div#cs1.c1 {
 
 /* Content box hinh*/
 
-.c2 {
+.c0 {
     text-align: center;
     justify-self: center;
     display: grid;
@@ -789,7 +789,7 @@ div#lxonl.method {
     background: rgba(255, 255, 255, 0.91);
 }
 
-.c3 {
+.c9 {
     text-align: center;
     justify-self: center;
     width: 100%;
