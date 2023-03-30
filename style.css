@@ -359,6 +359,7 @@ img {
 
 
 html {
+    user-select: none;
     font-family: 'Roboto Mono', monospace;
     height: 100vh;
     width: 100%;
@@ -460,8 +461,9 @@ font-weight: 200;
 }
 
 a#idfoot{
+   
     text-align: center;
-    filter: drop-shadow(2px 2px 2px #fedbf25c);
+    box-shadow: 2px 2px 4px 0px  #f66eff47;
 display: flex;
 justify-content: center;
   text-align: center;
@@ -470,7 +472,7 @@ justify-content: center;
     padding: 6px;
     margin: 0px;
     color: rgb(255, 0, 204);
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.926);
     text-decoration: none;
     border-radius: 20px;
 }
@@ -584,6 +586,8 @@ div#cs1.c8 {
 }
 
 #btn {
+    box-shadow: 2px 2px 4px 0px  #f66eff47;
+    filter: drop-shadow(2px 2px 2px #fa73ff5c);
     position: relative;
     justify-self: center;
     display: flex;
@@ -591,26 +595,31 @@ div#cs1.c8 {
     align-items: center;
     border-radius: 60px;
     text-align: center;
-    box-shadow: 2px 2px 0px 0px #f31dc10b ;
+    
 }
 
 .btn1{
+    background-color: #fc22c9;
     width: 100%;
     max-width: 260px;
     min-width: 20px;
-    background-color: #9cfe2c;
+    color: #fff839;
     height: 100%;
     min-height: 24px;
     padding: 4px 18px; 
-    transition: box-shadow 0.05s ease-in-out;
+    transition: all ease 0.5s;
+    filter: drop-shadow(2px 2px 6px #fa73ff5c);
+}
+@media (hover: hover) and (pointer: fine) {
+.btn1:hover {
+    background-color: #faf315;
+    color: #fc22c9;
+    padding: 5px 18px; 
 }
 
 #btn:hover {
-    transition: all 3s ease-in-out;
+    transition: all .3s ease;
     border-radius: 60px;
-    border: solid 1px;
-    border-color: #2ade33dd;
-    box-shadow: 2px 3px 0px 0px #ff19c91f;
  
     cursor: pointer;
 }
@@ -619,9 +628,9 @@ div#cs1.c8 {
     border: solid 1px  ;
     border-color: #2ade33dd;
     box-shadow: 2px 3px 0px 0px #ff19c91f;
-    transition: ease-in-out 0.05s;
+    transition: all ease-in-out 0.05s;
 }
-
+}
 
 /* Content box hinh*/
 
@@ -707,16 +716,27 @@ div#content.s2 {
 }
 
 .btn2{
-    border: #00bef200;
     max-height: 48px;
     height: 100%;
     max-width: 260px;
     min-width: 20px;
-    background-color:#f31dc1;
     min-height: 24px;
     padding: 0px 2em; 
     margin: 8px;
-    color: white;
+ 
+    background-color: #9cfe2c;
+    color: #fc22c9;
+   
+    transition: all ease 0.5s;
+    filter: drop-shadow(2px 2px 2px #73ff8a5c) ;
+}
+
+
+
+.btn2:hover {
+    background-color: #fc22c9;
+    color: #9cfe2c;
+    padding: 1px 2em; 
 }
 
 #social {
@@ -831,13 +851,21 @@ div#lxonl.method {
     width: 100%;
     max-width: 260px;
     min-width: 20px;
-    background-color:  #f31dc1;
+    background-color: #fc22c9;
     min-height: 24px;
     padding: 4px 18px; 
     grid-column: span 2;
-    color: rgb(255, 255, 255);
+    color: #fff839;
+    transition: all ease 0.5s;
     padding: 8px 2px 8px 2px;
     
+}
+
+
+.btn3:hover {
+    background-color: #faf315;
+    color: #fc22c9;
+    padding: 9px 2px 9px 2px;
 }
 
 .btn4{
@@ -847,9 +875,20 @@ div#lxonl.method {
     min-height: 24px;
     padding: 8px 18px;
     margin: 10px;
-    color: black;
-    background-color: #9cfe2ce2;
+    background-color: #9cfe2c;
+    color: #fc22c9;
+    transition: all ease 0.5s;
 }
+
+
+
+.btn4:hover {
+    background-color: #fc22c9;
+    color: #9cfe2c;
+    padding: 9px 18px;
+}
+
+
 
 a#p2b.border {
     border: solid 1px #f200942b;
@@ -965,12 +1004,15 @@ z-index: 1;
     bottom: 40px;
     right: 5%;
     max-width: 300px;
+    transition: all ease 0.5s;
 }
-
+@media (hover: hover) and (pointer: fine) {
 #infostick:hover {
     z-index: 3;
+    right: 6%;
+    bottom: 44px;
 }
-
+}
 #p6 {
    
  
@@ -1003,21 +1045,27 @@ padding: 0.5em;
 }
 
 .btn5{
-    transition: all 1s ease-in-out;
     font-weight: bold !important;
     margin: 0em 1em 0em 1em;
     width: 100%;
     max-width: 260px;
     min-width: 20px;
-    background-color: #f31dc1;
+    background-color: #fc22c9;
     min-height: 24px;
-    padding: 4px 18px; 
     grid-column: span 2;
-    color:#f7f370;
+    color: #fff839;
     padding: 12px 2px 12px 2px;
+    transition: all ease 0.5s;
     
 }
 
+
+
+.btn5:hover {
+    background-color: #faf315;
+    color: #fc22c9;
+    padding: 8px 18px; 
+}
 
 
 /* backgroundg*/
