@@ -394,7 +394,7 @@ body {
     grid-row: span 1;
    
     display: grid; 
-    grid-template-rows: 60px auto 80px ;
+    grid-template-rows: 50px auto 100px ;
     grid-gap: 8px;
 }
 
@@ -444,7 +444,7 @@ nav {
 }
 
 footer {
-   grid-gap: 4px;
+  
     width: 100%;
     height: 80%;
 display: grid;
@@ -461,7 +461,8 @@ font-weight: 200;
 }
 
 a#idfoot{
-   
+    
+    filter: drop-shadow(2px 2px 2px #fa73ff21);
     text-align: center;
     box-shadow: 2px 2px 4px 0px  #fae5fb2c;
 display: flex;
@@ -469,7 +470,7 @@ justify-content: center;
   text-align: center;
     align-items: center;
     transition: all .2s ease;
-    padding: 6px;
+    padding: 8px;
     margin: 0px;
     color: rgb(255, 0, 204);
     background-color: rgba(255, 255, 255, 0.926);
@@ -477,11 +478,11 @@ justify-content: center;
     border-radius: 20px;
 }
 a#idfoot:hover {
-
+    filter: drop-shadow(2px 2px 2px #fa73ff00) !important;
     align-items: center;
-    background-color: rgb(255, 0, 204);
-   color: #ffffff;
-    padding: 8px;
+    background-color: #fffdbc;
+    color: rgb(255, 0, 204);
+    padding: 9px;
 
 }
 
@@ -599,11 +600,11 @@ div#cs1.c8 {
 }
 
 .btn1{
-    background-color: #fc22c9;
+    background-color: #fffdb0;
+    color: #fc22c9;
     width: 100%;
     max-width: 260px;
     min-width: 20px;
-    color: #fff839;
     height: 100%;
     min-height: 24px;
     padding: 4px 18px; 
@@ -612,20 +613,22 @@ div#cs1.c8 {
 }
 @media (hover: hover) and (pointer: fine) {
 .btn1:hover {
-    background-color: #faf315;
+    background-color: #fbf439;
     color: #fc22c9;
     padding: 5px 18px; 
+  
 }
 
 #btn:hover {
     transition: all .3s ease;
     border-radius: 60px;
- 
+    filter: drop-shadow(2px 2px 6px #fa73ff00) !important;
+    box-shadow: 2px 2px 4px 0px  #f56eff00 !important;
     cursor: pointer;
 }
 
 #btn:active {
-    border: solid 1px  ;
+   
     border-color: #2ade33dd;
     box-shadow: 2px 3px 0px 0px #ff19c91f;
     transition: all ease-in-out 0.05s;
@@ -724,8 +727,8 @@ div#content.s2 {
     padding: 0px 2em; 
     margin: 8px;
  
-    background-color: #9cfe2c;
-    color: #fc22c9;
+    background-color: #ffe2f8;
+    color: #00db52;
    
     transition: all ease 0.5s;
     filter: drop-shadow(2px 2px 2px #73ff8a5c) ;
@@ -851,11 +854,12 @@ div#lxonl.method {
     width: 100%;
     max-width: 260px;
     min-width: 20px;
-    background-color: #fc22c9;
+    background-color: #fffdb0;
+    color: #fc22c9;
     min-height: 24px;
     padding: 4px 18px; 
     grid-column: span 2;
-    color: #fff839;
+   
     transition: all ease 0.5s;
     padding: 8px 2px 8px 2px;
     
@@ -863,7 +867,7 @@ div#lxonl.method {
 
 
 .btn3:hover {
-    background-color: #faf315;
+    background-color: #fbf439;
     color: #fc22c9;
     padding: 9px 2px 9px 2px;
 }
@@ -875,8 +879,8 @@ div#lxonl.method {
     min-height: 24px;
     padding: 8px 18px;
     margin: 10px;
-    background-color: #9cfe2c;
-    color: #fc22c9;
+    background-color: #ffe2f8;
+    color: #00db52;
     transition: all ease 0.5s;
 }
 
@@ -1050,10 +1054,10 @@ padding: 0.5em;
     width: 100%;
     max-width: 260px;
     min-width: 20px;
-    background-color: #fc22c9;
+    background-color: #fffdb0;
+    color: #fc22c9;
     min-height: 24px;
     grid-column: span 2;
-    color: #fff839;
     padding: 12px 2px 12px 2px;
     transition: all ease 0.5s;
     
@@ -1062,7 +1066,7 @@ padding: 0.5em;
 
 
 .btn5:hover {
-    background-color: #faf315;
+    background-color: #fbf439;
     color: #fc22c9;
     padding: 8px 18px; 
 }
@@ -1117,7 +1121,7 @@ padding: 0.5em;
         width: 100% ;
         box-shadow: 2px 2px 0px 0px #fcb1ea25;
         width: 100%;
-
+max-height: 30px;
     }
 
     .btn-name {
@@ -1137,8 +1141,8 @@ padding: 0.5em;
         align-items: center;
         justify-content: center;
         align-self: center;
-        height: 32px;
-        width: 32px;
+        height: 24px;
+        width: 24px;
         margin: 4px;
         border-radius: 60px ;
         padding: 0px ;
@@ -1150,7 +1154,7 @@ padding: 0.5em;
   pointer-events: none;
         opacity: 0;
         position: absolute;
-        margin-top: 148px;
+        margin-top: 100px;
         background-color: rgba(255, 255, 255, 0) ;
         display: flex;
         flex-direction: column;
@@ -1165,14 +1169,14 @@ padding: 0.5em;
         align-items: center;
         justify-content: center;
         background-color: white;
-        padding: 4px;
+       
         margin-bottom: 2px;
         font-style: normal;
         font-size: 14px ;
         line-height: 16px;
         color: #E565A6;
         border-radius: 24px;
-        height: 40px;
+        height: 30px;
         text-decoration: none;
     }
 
@@ -1186,19 +1190,20 @@ padding: 0.5em;
     .btn-dropdown > .btn-icon:focus,
 .btn-icon:hover{
     border-radius: 60px;
-   border: solid 1px #9cfe2c;
+   outline: 1px solid #fcff4b91;
     box-shadow: 2px 2px 0px 0px #b0f9c04c;
     cursor: pointer;
 }
 
 .btn-icon:focus{
-    border: solid 1px #9cfe2c;
+  
     box-shadow: 2px 2px 0px 0px #fcb1ea5c;
     cursor: pointer;
 }
 
 .btn-icon:hover > .icon-bg {
-    background-color: #9cfe2c00;
+    background-color: #fff309e2;
+
     cursor: pointer;
 }
 
@@ -1213,7 +1218,7 @@ padding: 0.5em;
  /* language*/
 
 #nn:hover { 
-background-color: #9cfe2ce2;
+background-color: #fff309e2;
 cursor: pointer;}
 
 #nn:active {
